@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto';
+    background-image: url('./img/background.png');
+}
+
+p{
+    color:#707070;
+}
+
+h3{
+    text-align: center;
+    margin: 100px;
+}
+
+
+/* -------------------------- Navbar */
+nav{
+    display: flex;
+    background-color: #FFFBEF;
+    justify-content: space-between;
+    align-items: center;
+    margin: -10px;
+    padding: 20px 20px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style: none;    
+}
+
+nav li a{
+    color: #2A2E33;
+    text-decoration: none;     
+}
+
+nav li a:hover{
+    color: #E2D072; 
+}
+
+/* -------------------------- Navbar */
+
+/* -------------------------- Container */
+.container{
+    margin-top: 50px;
+}
+
+.carousel-inner{
+    max-height: 500px;
+}
+
+.main_content{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.secondary_content{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 900px;
+}
+/* -------------------------- Container */
+
+/* -------------------------- Products */
+
+
+.title-box{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.title-box img{
+    margin-top: 70px;
+    width: 280px;
+}
+
+.title{
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    font-size: 30px;
+}
+
+.img-box{
+    margin-bottom: 100px;
+}
+
+.img-box .top{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-box .down{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* -------------------------- Products */
+
+
+/* -------------------------- Product a */
+
+.main-button-a{
+    border: 1pt solid;
+    color: #2A2E33;
+    background-color: white;
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.main-button-a:hover{
+    background-color: #E25465;
+    border: 0;
+    color: white;
+}
+
+.product-explains p{
+    line-height: 10px;
+}
+
+.more-options-product{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 900px;
+    margin-bottom: 100px;
+}
+
+.price-a{
+    font-size: 40px;
+    font-weight: 600;
+    color: #E25465;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -10px;      
+}
+
+/* -------------------------- Product a */
+
+/* -------------------------- Product b */
+
+
+.price-b{
+    font-size: 40px;
+    font-weight: 600;
+    color: #E389AB;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -10px;
+      
+}
+
+.main-button-b{
+    border: none;
+    color: white;
+    background-color: #2A2E33;
+    width: 350px;
+    height: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.main-button-b:hover{
+    background-color: #E389AB;
+}
+
+/* -------------------------- Product b */
+
+/* -------------------------- Product c */
+
+.price-c{
+    font-size: 40px;
+    font-weight: 600;
+    color: #8ABBC3;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -10px;      
+}
+
+.main-button-c{
+    border: none;
+    color: white;
+    background-color: #2A2E33;
+    width: 350px;
+    height: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.main-button-c:hover{
+    background-color: #8ABBC3;
+}
+
+/* -------------------------- Product c */
+
+/* -------------------------- Product d */
+
+.price-d{
+    font-size: 40px;
+    font-weight: 600;
+    color: #E2D072;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -10px;      
+}
+
+.main-button-d{
+    border: none;
+    color: white;
+    background-color: #2A2E33;
+    width: 350px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.main-button-d:hover{
+    background-color: #E2D072;
+}
+
+/* -------------------------- Product d */
+
+/* -------------------------- Bag */
+
+.product-box{
+    display: flex;
+    justify-content: center;
+}
+
+.product-img img{
+    margin: 50px;
+    width: 600px;
+}
+
+.product-img p{
+    margin-top: -40px;
+    margin-left: 108px;
+    font-size: 12px;
+}
+
+.product-details{
+    margin-top: 150px;
+    text-align: center;   
+}
+
+/* -------------------------- Bag */
+
+/* -------------------------- Identification */
+
+form{
+    margin-top: 100px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+input{
+    width: 350px;
+}
+
+.pay-button{
+        display: block;
+        border: none;
+        color: white;
+        background-color: #2A2E33;
+        width: 350px;
+        height: 30px;
+        margin-top: 40px;
+}
+
+/* -------------------------- Identification */
+
+/* -------------------------- Bio */
+
+.bio-text{
+    margin-top: 55px;
+    margin-bottom: 300px;
+    text-align: center;
+}
+
+/* -------------------------- Bio */
+
+/* -------------------------- Contact */
+.contact-text{
+    margin-top: 55px;
+    margin-bottom: 440px;
+    text-align: center;
+}
+
+.contact-text a{
+    text-decoration: none;
+    color: #2A2E33;
+}
+
+.contact-text strong{
+    color: #2A2E33;
+}
+
+/* -------------------------- Footer */
+
+footer{
+    background-color: #2A2E33;
+    height: 60px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+    font-weight: 300;
+}
+
+footer a:hover{
+    color: #E2D072; ;
+}
+
+footer p{
+    color: white;
+    font-weight: 300;
+}
+
+/* -------------------------- Footer */
